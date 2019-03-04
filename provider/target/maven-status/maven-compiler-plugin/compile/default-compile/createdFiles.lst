@@ -1,0 +1,4 @@
+com\my\blog\website\provider\attach\MainProvider.class
+com\my\blog\website\provider\attach\service\AttachServiceImp.class
+com\my\blog\website\provider\attach\service\DemoServiceImpl.class
+com\my\blog\website\provider\attach\dao\AttachVoMapper.class

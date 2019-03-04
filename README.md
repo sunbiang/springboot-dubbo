@@ -44,7 +44,7 @@ public interface DemoService {
 package com.imooc.springboot.dubbo.demo.provider;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.imooc.springboot.dubbo.demo.DemoService;
+import DemoService;
 
 @Service
 public class DemoServiceImpl implements DemoService {
@@ -113,7 +113,7 @@ public class MainProvider {
 package com.imooc.springboot.dubbo.demo.consumer;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.imooc.springboot.dubbo.demo.DemoService;
+import DemoService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
